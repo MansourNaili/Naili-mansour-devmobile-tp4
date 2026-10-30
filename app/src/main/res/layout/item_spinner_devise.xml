@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ligne du Spinner à l'état FERMÉ : texte blanc pour être lisible sur le fond turquoise.
+     La liste ouverte utilise le layout Android par défaut (simple_spinner_dropdown_item). -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:textColor="@color/texte_blanc"
+    android:textSize="20sp"
+    android:textStyle="bold" />
